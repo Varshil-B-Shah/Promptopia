@@ -8,10 +8,10 @@ import { useSession } from "next-auth/react";
 
 const EditPrompt = () => {
   const router = useRouter();
-  <Suspense>
-    const searchParams = useSearchParams(); const promptId =
-    searchParams.get("id");
-  </Suspense>;
+
+  const searchParams = useSearchParams();
+  const promptId = searchParams.get("id");
+
   const { data: session } = useSession();
 
   const [submitting, setSubmitting] = useState(false);
