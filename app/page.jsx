@@ -1,8 +1,10 @@
 import Feed from "@components/Feed";
+import Footer from "@components/Footer";
 
 const Home = () => {
   return (
     <section className="w-full flex-center flex-col">
+    <link href="/favicon.ico" sizes="any" rel="icon"/>
       <h1 className="head_text text-center">
         Discover & Share
         <br className="max-md:hidden" />
@@ -13,6 +15,7 @@ const Home = () => {
         discover, create and share creative prompts
       </p>
       <Feed />
+      <Footer />
     </section>
   );
 };
