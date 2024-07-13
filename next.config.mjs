@@ -2,6 +2,7 @@
 const nextConfig = {
   experimental: {
     serverComponentsExternalPackages: ["mongoose"],
+    missingSuspenseWithCSRBailout: false,
   },
   images: {
     remotePatterns: [
@@ -18,11 +19,6 @@ const nextConfig = {
       topLevelAwait: true,
     };
     return config;
-  },
-};
-module.exports = {
-  experimental: {
-    missingSuspenseWithCSRBailout: false,
   },
 };
 
