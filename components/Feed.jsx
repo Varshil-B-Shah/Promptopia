@@ -31,7 +31,7 @@ const Feed = () => {
     };
 
     fetchPosts();
-  }, []);
+  }, [posts]);
 
   useEffect(() => {
     const filteredposts =  posts.filter((p) => {
