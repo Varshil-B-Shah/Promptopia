@@ -23,3 +23,4 @@ const Profile = ({ name, desc, data, handleEdit, handleDelete }) => {
 };
 
 export default Profile;
+export const dynamic = 'force-dynamic'

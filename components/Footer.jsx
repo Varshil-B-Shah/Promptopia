@@ -90,3 +90,4 @@ const Footer = () => {
 };
 
 export default Footer;
+export const dynamic = 'force-dynamic'

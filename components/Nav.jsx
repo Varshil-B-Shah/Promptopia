@@ -136,3 +136,4 @@ const Nav = () => {
 };
 
 export default Nav;
+export const dynamic = 'force-dynamic'
